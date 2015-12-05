@@ -1,4 +1,5 @@
 // taken from https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+
 $(function() {
 
 	$("#slideshow > div:gt(0)").hide();

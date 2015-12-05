@@ -12,10 +12,10 @@ cat <<-ENDOFHEADER
 <link rel='stylesheet' href='slideshow.css'>
 </head>
 <body>
-<div class='slideshow'>
+<div id='slideshow'>
 ENDOFHEADER
 
-for file in $(ls *.jpg *.JPG 2>/dev/null); do
+for file in $(ls *.jpg *.JPG *.gif *.gif 2>/dev/null); do
     echo "<div><img src='${file}'></div>"
 done
 
